@@ -16,12 +16,14 @@ pip install -r requirements.txt
 
 2. Install the plugin in Claude Code:
 
+Id reccomend starting claude with bypass all permissions as subagent will need it and wont ask so it will silently fail
+claude --dangerously-skip-permissions 
 ```
 /plugin marketplace add Night1099/claude-re-tools
 /plugin install vibe-re@claude-re-tools
 /reload-plugins
 ```
-
+Invoke plugin with /reverse
 ### Installing via the Claude VSCode Extension
 
 1. Run this in PowerShell:
@@ -33,7 +35,8 @@ git config --global url."https://github.com/".insteadOf "git@github.com:"
 2. Open Claude extension, type the `/plugin` command and click **Manage Plugins**
 3. Go to the **Marketplace** tab and type `Night1099/claude-re-tools`
 4. Go back to the **Plugins** tab and click **Install** on `vibe-re@claude-re-tools`
-
+5. Id recommend starting claude with bypass all permissions as subagent will need it and wont ask so it will silently fail as it inherits main agents permissions
+6. Use /reverse command
 ## What's included
 
 ### Agents
