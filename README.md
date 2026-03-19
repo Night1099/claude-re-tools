@@ -19,6 +19,7 @@ pip install -r requirements.txt
 ```
 /plugin marketplace add Night1099/claude-re-tools
 /plugin install vibe-re@claude-re-tools
+/reload-plugins
 ```
 
 ## What's included
