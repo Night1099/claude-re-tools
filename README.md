@@ -23,7 +23,7 @@ claude --dangerously-skip-permissions
 /plugin install vibe-re@claude-re-tools
 /reload-plugins
 ```
-
+Invoke plugin with /reverse
 ### Installing via the Claude VSCode Extension
 
 1. Run this in PowerShell:
