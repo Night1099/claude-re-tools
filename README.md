@@ -61,6 +61,18 @@ RE projects live under `patches/<project>/` with:
 - `traces/` — JSONL trace data from livetools and the DX9 tracer
 - `findings.txt` — progressive findings written by background agents
 
+## Troubleshooting
+
+**"Host key verification failed" when installing the plugin:**
+
+Run this in your terminal to force git to use HTTPS instead of SSH:
+
+```bash
+git config --global url."https://github.com/".insteadOf "git@github.com:"
+```
+
+Then retry the `/plugin install` command.
+
 ## License
 
 MIT
