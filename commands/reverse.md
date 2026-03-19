@@ -1,5 +1,5 @@
 ---
-name: re
+name: reverse
 description: Start a reverse engineering session on a game binary
 argument-hint: "<path_to_exe> <what to investigate>"
 ---

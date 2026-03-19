@@ -48,7 +48,7 @@ git config --global url."https://github.com/".insteadOf "git@github.com:"
 
 | Command | Description |
 |---------|-------------|
-| `/re <path_to_exe> <what to investigate>` | Start an RE session — parallel static + dynamic analysis on a game binary |
+| `/reverse <path_to_exe> <what to investigate>` | Start an RE session — parallel static + dynamic analysis on a game binary |
 | `/kb-update <project> <entry>` | Append a discovery (function, global, struct) to a project's `kb.h` knowledge base |
 | `/new-project <name>` | Scaffold a new RE project under `patches/` with kb.h template and traces directory |
 
