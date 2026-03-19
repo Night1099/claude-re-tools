@@ -4,15 +4,15 @@ A [Claude Code](https://docs.anthropic.com/en/docs/claude-code) plugin for auton
 
 ## Install
 
-Clone the repo, then install the plugin:
+1. Clone the tooling repo and install dependencies:
 
 ```bash
-git clone https://github.com/Night1099/claude-re-tools.git
-cd claude-re-tools
+git clone https://github.com/Ekozmaster/Vibe-Reverse-Engineering.git
+cd Vibe-Reverse-Engineering
 pip install -r requirements.txt
 ```
 
-Then in Claude Code:
+2. Install the plugin in Claude Code:
 
 ```
 /plugin marketplace add Night1099/claude-re-tools
