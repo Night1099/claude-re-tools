@@ -1,6 +1,8 @@
 # vibe-re
 
-A [Claude Code](https://docs.anthropic.com/en/docs/claude-code) plugin for autonomous reverse engineering. Provides agents, commands, and skills for analyzing game binaries, porting DX9 games to RTX Remix, and running interactive RE sessions with parallel static + dynamic analysis.
+A [Claude Code](https://docs.anthropic.com/en/docs/claude-code) plugin for [Vibe-Reverse-Engineering](https://github.com/Ekozmaster/Vibe-Reverse-Engineering). Built on top of the retools, livetools, dx9 tracer, and rtx_remix_tools provided by that project.
+
+Provides agents, commands, and skills for analyzing game binaries, porting DX9 games to RTX Remix, and running interactive RE sessions with parallel static + dynamic analysis.
 
 ## Install
 
