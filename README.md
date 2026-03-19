@@ -22,6 +22,18 @@ pip install -r requirements.txt
 /reload-plugins
 ```
 
+### Installing via the Claude VSCode Extension
+
+1. Run this in PowerShell:
+
+```powershell
+git config --global url."https://github.com/".insteadOf "git@github.com:"
+```
+
+2. Open Claude extension, type the `/plugin` command and click **Manage Plugins**
+3. Go to the **Marketplace** tab and type `Night1099/claude-re-tools`
+4. Go back to the **Plugins** tab and click **Install** on `vibe-re@claude-re-tools`
+
 ## What's included
 
 ### Agents
