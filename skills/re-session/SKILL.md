@@ -81,6 +81,22 @@ python -m livetools mem write <addr> "EB"
 
 Tell user to check the game — "Does the behavior change?"
 
+## Spawning Additional Static Agents
+
+During investigation you will often discover related systems worth analyzing (e.g. you started looking at culling but found the rendering pipeline or LOD system is relevant too). **You can spawn more re-investigate agents at any time** for these new subjects — don't try to do static analysis yourself.
+
+Spawn exactly like Step 1B, with a fresh prompt focused on the new topic:
+```
+Binary: <full_path_to_exe>
+Find <new subject discovered during investigation>. Report function addresses, decompiled code, and kb.h entries.
+```
+
+Use `run_in_background: true` so you keep doing live analysis while the new agent works. Each agent writes to the same `patches/<project>/findings.txt` file, so you'll see all results in one place.
+
+**When to spawn vs not:**
+- **Spawn** when you hit a new system/subsystem that needs its own string searches and decompilation (different keywords, different code paths)
+- **Don't spawn** when you just need one more address traced — do that yourself with livetools
+
 ## Step 4: Report
 
 - What the investigated system does (algorithm explanation)
