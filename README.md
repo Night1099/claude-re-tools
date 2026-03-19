@@ -4,6 +4,16 @@ A [Claude Code](https://docs.anthropic.com/en/docs/claude-code) plugin for auton
 
 ## Install
 
+Clone the repo, then install the plugin:
+
+```bash
+git clone https://github.com/Night1099/claude-re-tools.git
+cd claude-re-tools
+pip install -r requirements.txt
+```
+
+Then in Claude Code:
+
 ```
 /plugin marketplace add Night1099/claude-re-tools
 /plugin install vibe-re@claude-re-tools
