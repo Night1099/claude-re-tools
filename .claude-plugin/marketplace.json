@@ -1,0 +1,16 @@
+{
+  "name": "claude-re-tools",
+  "owner": {
+    "name": "Night1099"
+  },
+  "plugins": [
+    {
+      "name": "vibe-re",
+      "source": {
+        "source": "github",
+        "repo": "Night1099/claude-re-tools"
+      },
+      "description": "Autonomous reverse engineering agents, build validation, and project scaffolding for the Vibe RE toolkit"
+    }
+  ]
+}
